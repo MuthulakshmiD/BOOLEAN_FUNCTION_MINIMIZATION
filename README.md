@@ -1,4 +1,4 @@
-# BOOLEAN_FUNCTION_MINIMIZATION
+![{A938CF54-39DE-4B4F-B001-2D32DCB584B6}](https://github.com/user-attachments/assets/3f62cd10-66a3-4b74-bca1-882e87f7beda)# BOOLEAN_FUNCTION_MINIMIZATION
 
 **AIM:**
 
@@ -33,18 +33,40 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Program:**
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:*/
-
+Developed by:Muthulakshmi D
+RegisterNumber:212223040122
+```
+module Boolean_min(A,B,C,D,W,X,Y,Z,F1,F2);
+input A,B,C,D,W,X,Y,Z;
+wire x1,x2,x3,x4,x5,x6,x7,x8,x9,x10;
+output F1,F2;
+assign x1=(~A)&(~B)&(~C)&(~D);
+assign x2=(A)&(~C)&(~D);
+assign x3=(~B)&(C)&(~D);
+assign x4=(~A)&(B)&(C)&(D);
+assign x5=(B)&(~C)&(D);
+assign x6=(X)&(~Y)&(Z);
+assign x7=(~X)&(~Y)&(Z);
+assign x8=(~W)&(X)&(Y);
+assign x9=(W)&(~X)&(Y);
+assign x10=(W)&(X)&(Y);
+assign F1=x1|x2|x3|x4|x5;
+assign F2=x6|x7|x8|x9|x10;
+endmodule
+```
+**logic symbol and truth table**
+![{A938CF54-39DE-4B4F-B001-2D32DCB584B6}](https://github.com/user-attachments/assets/003ece39-e191-4e01-88bd-164cd8e734a4)
+![{25565ACD-ED95-4970-901F-20E0F63C9D90}](https://github.com/user-attachments/assets/30ffc492-5d4f-4341-8743-e99e6f61bd77)
 
 **RTL realization**
 
+![{F3B3C80A-0C36-4CFE-9FFD-CAC11703A915}](https://github.com/user-attachments/assets/5be29395-3423-43c2-bd7d-8798806b2102)
+
 **Output:**
+![{F639A730-54CA-4047-9A5C-95A0138D3E6D}](https://github.com/user-attachments/assets/98cc5e53-fe23-4222-bb50-2d4788ce9479)
 
-**RTL**
-
-**Timing Diagram**
 
 **Result:**
 
