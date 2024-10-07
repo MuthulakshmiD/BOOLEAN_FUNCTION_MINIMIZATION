@@ -1,4 +1,4 @@
-![{A938CF54-39DE-4B4F-B001-2D32DCB584B6}](https://github.com/user-attachments/assets/3f62cd10-66a3-4b74-bca1-882e87f7beda)# BOOLEAN_FUNCTION_MINIMIZATION
+
 
 **AIM:**
 
