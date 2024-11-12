@@ -41,11 +41,15 @@ assign F2=x6|x7|x8|x9|x10;
 endmodule
 ```
 **logic symbol and truth table**
+
 ![{A938CF54-39DE-4B4F-B001-2D32DCB584B6}](https://github.com/user-attachments/assets/003ece39-e191-4e01-88bd-164cd8e734a4)
+
 ![{25565ACD-ED95-4970-901F-20E0F63C9D90}](https://github.com/user-attachments/assets/30ffc492-5d4f-4341-8743-e99e6f61bd77)
 **RTL realization**
+
 ![{F3B3C80A-0C36-4CFE-9FFD-CAC11703A915}](https://github.com/user-attachments/assets/5be29395-3423-43c2-bd7d-8798806b2102)
 **Output:**
+
 ![380815383-50a187d8-1971-487a-b826-3f3d8e2d70db](https://github.com/user-attachments/assets/4c32010a-4581-4a3d-9902-5d8c546d8a2f)
 **Result:**
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
